@@ -37,10 +37,7 @@ export const startCommand =
           { text: "ALPHA POOL", callback_data: "alpha_pool" },
           { text: "Transaction", callback_data: "transaction" },
         ],
-        [
-          { text: "Referrals", callback_data: "referrals" },
-          { text: "Reach out to us", callback_data: "reach_out" },
-        ],
+        [{ text: "Reach out to us", callback_data: "reach_out" }],
       ];
 
       await bot.sendMessage(chatId, menu_txt, {

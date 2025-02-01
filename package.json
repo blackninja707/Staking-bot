@@ -24,6 +24,7 @@
   },
   "devDependencies": {
     "@solana/web3.js": "^1.98.0",
+    "@types/bs58": "^4.0.4",
     "@types/mongoose": "^5.11.97",
     "@types/node": "^22.10.10",
     "@types/node-cron": "^3.0.11",
